@@ -1,0 +1,87 @@
+[
+    { 
+        "deep" : 0 ,
+        "id" : 0,
+        "upstream": [],
+        "downstream": [{
+            "id" : 1
+        },{
+            "id" : 2
+        }],
+        "month" : "Nov",
+        "day": "28",
+        "time" : "10:22 AM",
+        "owner": "Mill, M1",
+        "value": 100 ,
+        "unit_of_measure": "kgs",
+        "events": ["..array of events..."] 
+    },
+    {
+        "id" : 1,
+        "deep" : 1,
+        "upstream": {
+            "id" : 0
+        },
+        "downstream": [{
+            "id" : 3,
+            "month": "Nov",
+            "day": "30",
+            "time": "11:22PM"
+        },{
+            "id":4,
+            "month": "Nov",
+            "day": "30",
+            "time": "4:22 PM"
+        }],
+        "owner": "Mill, K1",
+        "value": 100,
+        "unit_of_measure": "kgs",
+        "events": ["..array of events..."] 
+    },{
+        "id" : 2,
+        "deep" : 1,
+        "upstream": {
+            "id" : 0
+        },
+        "downstream": {
+            "id" : 5
+        },
+        "owner": "Mill, P1",
+        "value": 100,
+        "unit_of_measure": "kgs",
+        "events": ["..array of events..."] 
+    },{
+        "id" : 3,
+        "deep" : 2,
+        "upstream": {
+            "id" : "1"
+        },
+        "downstream": {},
+        "owner": "Mill, M1",
+        "value": 100,
+        "unit_of_measure": "kgs",
+        "events": ["..array of events..."] 
+    },{
+        "id" : 4,
+        "deep" : 2,
+        "upstream": {
+            "id" : "1"
+        },
+        "downstream": {},
+        "owner": "Mill, M1",
+        "value": 100,
+        "unit_of_measure": "kgs",
+        "events": ["..array of events..."] 
+    },{
+        "id" : 5,
+        "deep" : 2,
+        "upstream": {
+            "id" : 2
+        },
+        "downstream": {},
+        "owner": "Mill, M1",
+        "value": 100,
+        "unit_of_measure": "kgs",
+        "events": ["..array of events..."] 
+    }
+]
